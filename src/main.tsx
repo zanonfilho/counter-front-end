@@ -5,7 +5,7 @@ import './index.css';
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
 // this manifest is used temporarily for development purposes
-const manifestUrl = 'https://github.com/zanonfilho/counter-front-end/blob/master/public/manifest.json';
+const manifestUrl = 'https://zanonfilho.github.io/counter-front-end/tonconnect-manifest.json';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
