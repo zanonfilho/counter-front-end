@@ -95,7 +95,7 @@ export class MainContract implements Contract {
             number: stack.readNumber(),
             recent_sender: stack.readAddress(),
             owner_address: stack.readAddress(),
-            //owner_address: stack.readAddress(),  //linha inserida do github
+            //owner_address: stack.readAddress(), //linha inserida do github
         };
     }
 
